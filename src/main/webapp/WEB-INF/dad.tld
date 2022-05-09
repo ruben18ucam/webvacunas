@@ -1,0 +1,26 @@
+<taglib>
+	<tlib-version>
+		1.0
+		</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>hola</short-name>
+	<uri>
+		mistags
+		</uri>
+	<description>Etiquetas de ejemplo</description>
+	<tag>
+		<name>hacervaloracion</name>
+		<tag-class>ucam.tags.TagValoracion</tag-class>
+		<body-content>
+			empty
+			</body-content>
+		<info>Saludo</info>
+		<attribute>
+			<name>nombreVideojuego</name>
+			<required>false</required></attribute>
+		<attribute>
+			<name>nombreCliente</name>
+			<required>false</required></attribute>
+		<attribute>
+			<name>valoracion</name>
+			<required>false</required></attribute></tag></taglib>
